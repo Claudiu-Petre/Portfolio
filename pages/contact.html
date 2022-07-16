@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    
-    <title>Contact Me</title>
-    
-</head>
+<head><title>Contact Me</title></head>
 <body>
-    
+    <h1>Reaching me!</h1>
+    <p>For further information, please, do not hesitate to contact me!</p>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+                <label for="firstname">First name</label>
+                <input id="firstname" type="text">
+            <br>
+                <label for="lastname">Last name</label>
+                <input id="lastname" type="text">
+            <br>
+                <label for="Email">Email</label>
+                <input id="Email" type="email">
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Reason for Reaching</legend>
+            <br>
+                <select name="reason">
+                    <option value="extra info" selected>extra info </option>
+                    <option value="call me back">call me back</option>
+                    <option value="return">return</option>
+                    <option value="complaint">complaint</option>
+                </select>
+        </fieldset>
+        
+    </form>
 </body>
 </html>
